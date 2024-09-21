@@ -1,4 +1,5 @@
 # PRODIGY_WD_03
-Tic Tac Toe web application..
+Tic Tac Toe web application.. 
+THIS IS MY REPOSITORY FOR INTERNSHIP IN PRODIGY INFOTECH.
 
 :)
