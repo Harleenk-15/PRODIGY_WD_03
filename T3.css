@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cute font */
+    font-size: 48px; /* Bigger size */
+    color: #ff6f61; /* A playful color */
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #e0c3fc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #d0e8f2;
+}
+
+.status {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #ffcccb;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffb3b3;
+}
